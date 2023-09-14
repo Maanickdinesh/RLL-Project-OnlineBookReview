@@ -1,0 +1,74 @@
+Adding a Book - POST Request
+
+URL: http://localhost:8086/addBook
+Body (raw JSON)
+Getting All Books - GET Request
+
+URL: http://localhost:8080/getAllBooks
+Getting Enabled Books - GET Request
+
+URL: http://localhost:8080/getEnabledBooks
+
+Updating a Book - PUT Request
+
+URL: http://localhost:8080/updateBook
+Body (raw JSON):
+
+
+Getting Book by Name - GET Request /getBookByBookName/{bookName}
+
+
+URL: http://localhost:8080/getBookByBookName/Sample%20Book
+Method: GET
+
+Deleting a Book - DELETE Request
+
+URL: http://localhost:8080/deleteBook/1
+Method: DELETE
+
+
+Adding a Review - POST Request
+
+URL: http://localhost:8080/addReview
+Body (raw JSON):
+
+Getting Reviews by Book Name - GET Request
+
+URL: http://localhost:8080/getReviewByBook/Sample%20Book
+Method: GET
+
+/getReviewByBook/{bookName}
+
+
+
+Adding a User - POST Request
+
+URL: http://localhost:8080/addUser
+Body (raw JSON):
+
+
+Getting User by Email - GET Request
+
+URL: http://localhost:8080/getUser/john@example.com
+Method: GET /getUser/{email}
+
+
+Validating User Login - GET Request
+
+URL: http://localhost:8080/validUserLogin/john@example.com/secretpassword
+
+Method: GET
+
+/validUserLogin/{email}/{password}"
+
+
+Updating User Information - PUT Request
+
+URL: http://localhost:8080/updateUser
+Body (raw JSON):
+
+
+
+Today, I'll be presenting on the topic of 'Viewing User Ratings for a Specific Book.' Our goal is to allow users to easily access their own ratings and enhance their experience on our platform."
+
+
